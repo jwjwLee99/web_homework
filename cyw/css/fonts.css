@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   DungGeunMo 둥근모꼴
+   ========================================================================== */
+@font-face {
+  font-family: "DungGeunMo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/DungGeunMo.eot"); /* IE 호환성 보기 */
+  src: url("../fonts/DungGeunMo.eot#iefix") format("embedded-opentype"),
+    /* IE 6 ~ 8 */ url("../fonts/DungGeunMo.woff2") format("woff2"),
+    /* WOFF2 지원 브라우저 */ url("../fonts/DungGeunMo.woff") format("woff"),
+    /* 모던 브라우저 */ url("../fonts/DungGeunMo.ttf") format("truetype"),
+    url("../fonts/DungGeunMo.otf") format("opentype");
+}
+
+/* ==========================================================================
+   Gmarket Sans
+   ========================================================================== */
+@font-face {
+  font-family: "GmarketSans";
+  src: url("../fonts/GmarketSansLight.woff2") format("woff2"),
+    url("../fonts/GmarketSansLight.woff") format("woff"),
+    url("../fonts/GmarketSansTTFLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSans";
+  src: url("../fonts/GmarketSansMedium.woff2") format("woff2"),
+    url("../fonts/GmarketSansMedium.woff") format("woff"),
+    url("../fonts/GmarketSansTTFMedium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSans";
+  src: url("../fonts/GmarketSansBold.woff2") format("woff2"),
+    url("../fonts/GmarketSansBold.woff") format("woff"),
+    url("../fonts/GmarketSansTTFBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 카페 24 써라운드 */
+@font-face {
+  font-family: "Cafe24Ssurround";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
